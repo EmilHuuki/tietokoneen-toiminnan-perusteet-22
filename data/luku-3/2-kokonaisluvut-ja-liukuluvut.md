@@ -234,7 +234,7 @@ if (Y < Z) -- koodi ei välttämättä toimi oikein
            -- esim. Y = 3.00000011 ja Z = 3.00000008
 then  ....
 
-if ( Y < 0.99999 * Z)  -- koodi toimii varmemmin oikein
+if (Y * 0.99999 < Z)  -- koodi toimii varmemmin oikein
 then ....
 ```
 
